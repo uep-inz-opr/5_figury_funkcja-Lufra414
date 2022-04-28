@@ -32,5 +32,6 @@ for promien_bok in liczby:
 
   if len(promien_bok)>3:
     print("Błąd: można podać maksymalnie 3 liczby")
+    break
    
 print(round(wyniki,2))
