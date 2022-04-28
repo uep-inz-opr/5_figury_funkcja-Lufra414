@@ -5,7 +5,7 @@ liczba_figur=int(input())
 liczby=[]
 wyniki=0
 
-for index in (0,liczba_figur):
+for index in range(0,liczba_figur):
   liczba=input().split()
   
   for liczba_figur in range (0,len(liczba)):
