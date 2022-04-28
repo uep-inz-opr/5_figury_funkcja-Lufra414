@@ -23,10 +23,10 @@ for promien_bok in liczby:
     wyniki+=wynik
 
   if len(promien_bok)==3:
-    p=1/2*(a+b+c)
     a=promien_bok[0]
     b=promien_bok[1]
     c=promien_bok[2]
+    p=1/2*(a+b+c)
     pole=(p*(p-a)*(p-b)*(p-c))**(1/2)
     wyniki+=pole
 
