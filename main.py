@@ -1,7 +1,7 @@
 import string
 import math
 
-liczba_figur=input()
+liczba_figur=int(input())
 liczby=[]
 wyniki=0
 
@@ -33,4 +33,4 @@ for promien_bok in liczby:
   if len(promien_bok)>3:
     print("Błąd: można podać maksymalnie 3 liczby")
    
-print(round(wyniki,2)
+print(wyniki)
